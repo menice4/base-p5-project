@@ -18,7 +18,7 @@ function setup() {
 function draw() {
     background(0);
     noStroke();
-    let length = 22;
+    let length = 20;
     while (theta < maxAngle + offset) {
 
         amplitude =  (( theta-offset)/maxAngle) * (windowHeight/2);
